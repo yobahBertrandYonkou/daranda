@@ -415,3 +415,7 @@ textarea {
     }
   }
   
+
+#backgroundCanvas {
+    object-fit: contain;
+}
