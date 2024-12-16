@@ -315,40 +315,7 @@ textarea {
 }
 /* responsiveness */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-  .main-text {
-    font-size: 36px;
-  }
 
-  .top-content-container {
-    padding: 10px;
-  }
-
-  .mission-text {
-    font-size: 16px;
-  }
-
-  .contact-btn {
-    font-size: 16px;
-  }
-
-  .section-title {
-    font-size: 16px;
-  }
-
-  .sub-title {
-    font-size: 12px;
-  }
-
-  .section-title {
-    margin-top: 50px;
-  }
-
-  .section-container {
-    margin-top: 30px !important;
-  }
-}
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
@@ -412,3 +379,39 @@ textarea {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (max-width: 1400px) {
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .main-text {
+      font-size: 36px !important;  /* Ensure it's overridden */
+    }
+  
+    .top-content-container {
+      padding: 10px !important; /* Force padding to apply */
+    }
+  
+    .mission-text {
+      font-size: 16px !important; /* Force font size to apply */
+    }
+  
+    .contact-btn {
+      font-size: 16px !important; /* Force font size to apply */
+    }
+  
+    .section-title {
+      font-size: 16px !important; /* Force font size to apply */
+    }
+  
+    .sub-title {
+      font-size: 12px !important; /* Force font size to apply */
+    }
+  
+    .section-title {
+      margin-top: 50px !important; /* Ensure margin applies */
+    }
+  
+    .section-container {
+      margin-top: 30px !important; /* Ensure margin applies */
+    }
+  }
+  
