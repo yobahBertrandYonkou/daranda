@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARANDA - The Research Assistants</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="nav-bar">
+        <!-- <div class="logo"><img src="./assets/images/logo-sub.svg" alt=""></div> -->
+        <div class="logo"><img src="./assets/images/logo.svg" alt=""></div>
+        <div class="nav-links">
+            <div><a href="#" class="nav-link">Home</a></div>
+            <div><a href="#about" class="nav-link">About</a></div>
+            <div><a href="#how" class="nav-link">How?</a></div>
+            <div><a href="#services" class="nav-link">Services</a></div>
+            <div><a href="#tools" class="nav-link">Tools</a></div>
+            <div><a href="#limitations" class="nav-link">Limitations</a></div>
+            <div><a href="#contact" class="nav-link">Contact</a></div>
+
+        </div>
+        <div class="bars">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+    <!-- End of nav bar -->
+
+    <!-- top -->
+    <div class="top-content-container">
+        <!-- Canvas for background animation -->
+        <canvas id="backgroundCanvas"></canvas>
+
+        <!-- Main text -->
+        <div class="main-text">Data Analytics Research<br />Assistants for Non Data<br />Analysts</div>
+        <!-- Main text end -->
+
+        <!-- Contact button -->
+        <div class="contact-btn">Contact us</div>
+        <!-- end of contact button -->
+
+        <!-- mission text -->
+        <div class="mission-text">Simplifying data analysis for researchers who know<br />what they want, but need help
+            with
+            the technical<br />details</div>
+        <!-- end of mission text -->
+    </div>
+    <!-- end of top -->
+
+    <div id="about" class="container">
+        <div class="section-title">About Us</div>
+        <div class="sub-title">What is DARANDA?</div>
+        <div class="row section-container card-container card">
+            <div>
+                At <strong>DARANDA</strong> (Data Analytics Research Assistants for Non-Data Analysts), we bridge the
+                gap between research ambition and technical limitations.
+                We specialize in helping non-computer-intensive students and researchers transform their data into
+                meaningful insights—without the struggle of technical hurdles.
+            </div>
+        </div>
+    </div>
+
+    <div id="how" class="container">
+        <!-- how it works -->
+        <div class="section-title">How it works</div>
+        <div class="sub-title">The Process</div>
+        <!-- end of how it works -->
+
+        <!-- hiw container -->
+        <div class="row section-container">
+            <!-- Step 1: Provide Your Data -->
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container how-its-done card">
+                    <img class="card-img-top" src="assets/images/provide_your_data.svg" alt="Provide Your Data">
+                    <div class="card-body">
+                        <h5 class="card-title">1. Provide Data</h5>
+                        <p class="step-description card-text">Start by submitting the data you need analyzed. Our secure
+                            and user-friendly platform makes it easy for you to upload your dataset in the format that
+                            suits your research.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Share Your Requirements -->
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container how-its-done card">
+                    <img class="card-img-top" src="assets/images/share_your_requirements.svg"
+                        alt="Share Your Requirements">
+                    <div class="card-body">
+                        <h5 class="card-title">2. Share Requirements</h5>
+                        <p class="step-description card-text">Along with your data, share a detailed requirements
+                            document. Describe the analysis goals, specific mathematical concepts, and any tests you
+                            want conducted.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 3: Collaborate as We Analyze Your Data -->
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container how-its-done card">
+                    <img class="card-img-top" src="assets/images/colab.svg" alt="Collaborate">
+                    <div class="card-body">
+                        <h5 class="card-title">3. Collab on Analysis</h5>
+                        <p class="step-description card-text">We believe in a collaborative approach. As we analyze your
+                            data, you’re welcome to sit in on sessions or discuss progress with our data analysts.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Be Happy -->
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container how-its-done card">
+                    <img class="card-img-top" src="assets/images/be_happy.svg" alt="Be Happy">
+                    <div class="card-body">
+                        <h5 class="card-title">4. Get results</h5>
+                        <p class="step-description card-text">Receive a thorough analysis tailored to your exact
+                            specifications, empowering you to move forward with confidence. You can focus on drawing
+                            conclusions and advancing your research.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of roadmap -->
+    </div>
+
+    <div id="services" class="container">
+        <div class="section-title">Our Expertise</div>
+        <div class="sub-title">What We Can Do</div>
+        <div class="row section-container">
+            <div class="need-space col-12 col-md-4">
+                <div class="card-container card">
+                    <div class="card-body">
+                        <div class="card-title">Data Cleaning</div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-4">
+                <div class="card-container card">
+                    <div class="card-body">
+                        <div class="card-title">Data Visualization</div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-4">
+                <div class="card-container card">
+                    <div class="card-body">
+                        <div class="card-title">Predictive Modeling</div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-4">
+                <div class="card-container card">
+                    <div class="card-body">
+                        <div class="card-title">Statistical Analysis</div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-4">
+                <div class="card-container card">
+                    <div class="card-body">
+                        <div class="card-title">Hypothesis testing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-4">
+                <div class="card-container card">
+                    <div class="card-body">
+                        <div class="card-title">Model Deployment</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tools" class="container">
+        <div class="section-title">Tools & Languages</div>
+        <div class="sub-title">Analytical Tools and Languages</div>
+        <div class="row section-container">
+            <div class="need-space col-12 col-md-3">
+                <div class="card-container card tools python">Python</div>
+            </div>
+            <div class="need-space col-12 col-md-3">
+                <div class="card-container card tools r-programming">R Programming</div>
+            </div>
+            <div class="need-space col-12 col-md-3">
+                <div class="card-container card tools powerbi">PowerBI</div>
+            </div>
+            <div class="need-space col-12 col-md-3">
+                <div class="card-container card tools tableau">Tableau</div>
+            </div>
+            <div class="need-space col-12 col-md-3">
+                <div class="card-container card tools tableau">Excel</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="limitations" class="container">
+        <div class="section-title">Our Limitations</div>
+        <div class="sub-title">What We Cannot Do</div>
+        <div class="row section-container">
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container card limitations">
+                    <div class="card-body">
+                        <div class="card-title text-start">Design Your Research</div>
+                        <div class="card-text text-start">The data analyst will not be responsible for designing the
+                            research. It is the researcher's responsibility to know what they want to achieve with the
+                            analysis.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container card limitations">
+                    <div class="card-body">
+                        <div class="card-title text-start">Conduct the Research</div>
+                        <div class="card-text text-start">DARANDA is not responsible for conducting the research itself,
+                            only for performing the data analysis based on the provided requirements.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container card limitations">
+                    <div class="card-body">
+                        <div class="card-title text-start">Automatic Implementation of Suggestions</div>
+                        <div class="card-text text-start">Data analysts may offer suggestions, but they will only be
+                            implemented if the researcher agrees to them.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="need-space col-12 col-md-6">
+                <div class="card-container card limitations">
+                    <div class="card-body">
+                        <div class="card-title text-start">Go against university norms</div>
+                        <div class="card-text text-start">We would not like to violate university norms on research. We
+                            suggest you ask your research guides or professors if you can work with us.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container">
+        <div class="section-title">Contact Us</div>
+        <div class="sub-title">Have questions or need assistance? Reach out to us and we'll get back to you promptly.
+        </div>
+        <div class="row section-container  text-start contact-card card-container">
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <a href="https://calendly.com/ybertrandyonkou/daranda" target="_blank">
+                    <button style="background-color: #006bff; color: #ffffff;" type="submit"
+                        class="btn btn-primary">Book an appointment</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer-container">
+        <div class="builder">Yobah Corp &copy; 2024</div>
+        <div class="icon-space"></div>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/yobah/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+            </a>
+        </div>
+        <div class="icon-space"></div>
+        <div class="github">
+            <a href="https://www.github.com/yobahBertrandYonkou" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!-- end of footer -->
+
+    <script src="assets/js/animation.js"></script>
+
+    <!-- Canvas animation script -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
