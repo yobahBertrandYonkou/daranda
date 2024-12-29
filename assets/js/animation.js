@@ -1,27 +1,3 @@
-// card sequence highlight
-function highlightCards() {
-    // get cards
-    let cards = document.querySelectorAll('.how-its-done');
-
-    let index = 0;
-    setInterval(() => {
-        // get ref to card
-        let card = cards[index++ % cards.length];
-
-        // apply glow
-        card.style.background = "radial-gradient(circle, rgba(50, 158, 168, 0.1) 20%, transparent 50%)"
-
-        // transform card
-        card.style.transform = "scale(1.1)";
-
-        // remove glow
-        setTimeout(() => {
-            card.style.background = "none";
-            card.style.transform = "none";
-        }, 1000)
-    }, 1500);
-}
-
 function displayCards() {
     // Select all the cards
     let cards = document.querySelectorAll('.card-container');
