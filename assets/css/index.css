@@ -53,7 +53,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   top: 0;
   position: sticky;
-  z-index: 1;
+  z-index: 100;
 }
 
 .logo {
@@ -315,8 +315,6 @@ textarea {
 }
 /* responsiveness */
 
-
-
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
   .top-content-container {
@@ -327,12 +325,23 @@ textarea {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
+  .nav-bar {
+    height: fit-content !important;
+    box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo {
+    height: fit-content;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
     right: 0;
-    top: 120px;
+    top: 60px;
     width: 100%;
     background-color: black;
     z-index: 100;
@@ -340,7 +349,6 @@ textarea {
 
   .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2) !important;
-
   }
 
   .bars {
@@ -382,40 +390,39 @@ textarea {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-    .main-text {
-      font-size: 36px !important;  /* Ensure it's overridden */
-    }
-  
-    .top-content-container {
-      padding: 10px !important; /* Force padding to apply */
-    }
-  
-    .mission-text {
-      font-size: 16px !important; /* Force font size to apply */
-    }
-  
-    .contact-btn {
-      font-size: 16px !important; /* Force font size to apply */
-    }
-  
-    .section-title {
-      font-size: 16px !important; /* Force font size to apply */
-    }
-  
-    .sub-title {
-      font-size: 12px !important; /* Force font size to apply */
-    }
-  
-    .section-title {
-      margin-top: 50px !important; /* Ensure margin applies */
-    }
-  
-    .section-container {
-      margin-top: 30px !important; /* Ensure margin applies */
-    }
+  .main-text {
+    font-size: 36px !important; /* Ensure it's overridden */
   }
-  
+
+  .top-content-container {
+    padding: 10px !important; /* Force padding to apply */
+  }
+
+  .mission-text {
+    font-size: 16px !important; /* Force font size to apply */
+  }
+
+  .contact-btn {
+    font-size: 16px !important; /* Force font size to apply */
+  }
+
+  .section-title {
+    font-size: 16px !important; /* Force font size to apply */
+  }
+
+  .sub-title {
+    font-size: 12px !important; /* Force font size to apply */
+  }
+
+  .section-title {
+    margin-top: 50px !important; /* Ensure margin applies */
+  }
+
+  .section-container {
+    margin-top: 30px !important; /* Ensure margin applies */
+  }
+}
 
 #backgroundCanvas {
-    object-fit: contain;
+  object-fit: contain;
 }
