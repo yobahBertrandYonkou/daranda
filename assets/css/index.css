@@ -106,6 +106,8 @@ body {
   backdrop-filter: blur(10px);
   user-select: none;
   border: 1px solid white;
+  text-decoration: none !important;
+  color: var(--secondary-color);
 }
 
 .contact-btn::before {
